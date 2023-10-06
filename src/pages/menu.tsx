@@ -34,7 +34,7 @@ function MenuPage({ data }: PageProps<Queries.MenuQuery>) {
                     justifyContent="space-between"
                     mb="2"
                   >
-                    <Box mb="1">
+                    <Box mb="1" mr="1">
                       <Text mb="0">{item?.name?.[lang]}</Text>
                       {item?.description && (
                         <Text as="span" fontSize={{ base: "md", md: "lg" }}>
