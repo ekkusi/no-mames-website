@@ -48,7 +48,6 @@ const config: GatsbyConfig = {
       options: {
         localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
         languages: [`es`, `en`],
-        generateDefaultLanguagePage: true,
         defaultLanguage: `es`,
         // you can pass any i18next options
         i18nextOptions: {
