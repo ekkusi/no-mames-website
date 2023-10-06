@@ -1,0 +1,14 @@
+{
+  "home": {
+    "welcome": "Welcome!",
+    "to-menu": "To menu"
+  },
+  "menu": {
+    "menu": "Menu"
+  },
+  "footer": {
+    "contact-us": "Contact us",
+    "phone": "Phone",
+    "contact-in-whatsapp": "Contact in Whatsapp"
+  }
+}

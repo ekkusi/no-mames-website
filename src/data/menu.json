@@ -1,0 +1,460 @@
+[
+  {
+    "name": {
+      "es": "Antojitos Mexicanos",
+      "en": "Mexican Cravings"
+    },
+    "colorKey": "green",
+    "items": [
+      {
+        "name": {
+          "es": "Tamales de DF, unid.",
+          "en": "Tamales de DF, unid."
+        },
+        "description": {
+          "es": "de cerdo en salsa verde y de queso con rajas",
+          "en": "de cerdo en salsa verde y de queso con rajas"
+        },
+        "price": 6.95
+      },
+      {
+        "name": {
+          "es": "Tamales Oaxaqueños, unid.",
+          "en": "Tamales Oaxaqueños, unid."
+        },
+        "description": {
+          "es": "de pollo pibil y de salsa morita",
+          "en": "de cerdo en salsa verde y de queso con rajas"
+        },
+        "price": 6.95
+      },
+      {
+        "name": {
+          "es": "Taxos dorados en salsa, 5 unid.",
+          "en": "Taxos dorados en salsa, 5 unid."
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Tacos de cochinita, 4 unid.",
+          "en": "Tacos de cochinita, 4 unid."
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Salxitaco",
+          "en": "Salxitaco"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Enchiladas rojas, verdes y de mole, 5 unid.",
+          "en": "Enchiladas rojas, verdes y de mole, 5 unid."
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Burritas de jamón y queso, 2 unid.",
+          "en": "Burritas de jamón y queso, 2 unid."
+        },
+        "price": 6.95
+      },
+      {
+        "name": {
+          "es": "Totopos chedar y chorizo, ración",
+          "en": "Totopos chedar y chorizo, ración"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Sopes Mexicanos, 4 unid.",
+          "en": "Sopes Mexicanos, 4 unid."
+        },
+        "price": 12.95
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Hamburguesas",
+      "en": "Burgers"
+    },
+    "colorKey": "red",
+    "items": [
+      {
+        "name": {
+          "es": "Mi India",
+          "en": "Mi India"
+        },
+        "description": {
+          "es": "langostino y cangrejo en pan de calamar con guacamole",
+          "en": "langostino y cangrejo en pan de calamar con guacamole"
+        },
+        "price": 15.95
+      },
+      {
+        "name": {
+          "es": "Quintana Roo",
+          "en": "Quintana Roo"
+        },
+        "description": {
+          "es": "ternera asturiana con bacon, piña y cebolla caramelizada en pan de patata",
+          "en": "ternera asturiana con bacon, piña y cebolla caramelizada en pan de patata"
+        },
+        "price": 14.95
+      },
+      {
+        "name": {
+          "es": "Hamburguesa Zacatecas",
+          "en": "Hamburguesa Zacatecas"
+        },
+        "description": {
+          "es": "pan de patata con pollo, piña y guacamole con cebolla caramelizada",
+          "en": "pan de patata con pollo, piña y guacamole con cebolla caramelizada"
+        },
+        "price": 14.95
+      },
+      {
+        "name": {
+          "es": "Veggi Burguer",
+          "en": "Veggi Burguer"
+        },
+        "description": {
+          "es": "pan vegano con tomate y salsa verde con tofu y seitan",
+          "en": "pan vegano con tomate y salsa verde con tofu y seitan"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "Patatas Teja, ración",
+          "en": "Patatas Teja, ración"
+        },
+        "price": 3.80
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Quesos y postres",
+      "en": "Cheeses and desserts"
+    },
+    "colorKey": "light-orange",
+    "items": [
+      {
+        "name": {
+          "es": "Queso curado de mezcla, cuña de 400 gr",
+          "en": "Queso curado de mezcla, cuña de 400 gr"
+        },
+        "price": 5.50
+      },
+      {
+        "name": {
+          "es": "Queso de oveja, 400 gr",
+          "en": "Queso de oveja, 400 gr"
+        },
+        "price": 6.25
+      },
+      {
+        "name": {
+          "es": "Queso de hoja, 400 gr",
+          "en": "Queso de hoja, 400 gr"
+        },
+        "price": 4.20
+      },
+      {
+        "name": {
+          "es": "Tabla de quesos",
+          "en": "Tabla de quesos"
+        },
+        "price": 6.50
+      },
+      {
+        "name": {
+          "es": "Tarta de queso",
+          "en": "Tarta de queso"
+        },
+        "price": 3.50
+      },
+      {
+        "name": {
+          "es": "Tarta de chocolate",
+          "en": "Tarta de chocolate"
+        },
+        "price": 3.50
+      },
+      {
+        "name": {
+          "es": "Arroz con leche",
+          "en": "Arroz con leche"
+        },
+        "price": 3.50
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Conservas",
+      "en": "Preserves"
+    },
+    "colorKey": "light-orange",
+    "items": [
+      {
+        "name": {
+          "es": "Filete de Anchoa SAN FILIPO",
+          "en": "Filete de Anchoa SAN FILIPO"
+        },
+        "price": 14.00
+      },
+      {
+        "name": {
+          "es": "Espárragos de Navarra LA CATEDRAL, 6-8",
+          "en": "Espárragos de Navarra LA CATEDRAL, 6-8"
+        },
+        "price": 9.00
+      },
+      {
+        "name": {
+          "es": "Crema de Calabaza LA CATEDRAL",
+          "en": "Crema de Calabaza LA CATEDRAL"
+        },
+        "price": 9.00
+      },
+      {
+        "name": {
+          "es": "Crema de Verduras LA CATEDRAL",
+          "en": "Crema de Verduras LA CATEDRAL"
+        },
+        "price": 9.00
+      },
+      {
+        "name": {
+          "es": "Berberechos al ajillo LOS PERRETES",
+          "en": "Berberechos al ajillo LOS PERRETES"
+        },
+        "price": 18.00
+      },
+      {
+        "name": {
+          "es": "Pandereta de Pimientos del Piquillo",
+          "en": "Pandereta de Pimientos del Piquillo"
+        },
+        "price": 15.50
+      },
+      {
+        "name": {
+          "es": "Bonito en aceite de oliva Ortiz",
+          "en": "Bonito en aceite de oliva Ortiz"
+        },
+        "price": 23.50
+      },
+      {
+        "name": {
+          "es": "Miel de PERTIERRA",
+          "en": "Miel de PERTIERRA"
+        },
+        "price": 6.95
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Bebidas",
+      "en": "Drinks"
+    },
+    "colorKey": "blue",
+    "items": [
+      {
+        "name": {
+          "es": "Margarita, litro",
+          "en": "Margarita, litro"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "CONVENTO OREJA, tinto Roble Ribera del Duero",
+          "en": "CONVENTO OREJA, tinto Roble Ribera del Duero"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "CONVENTO OREJA, tinto Crianza Ribera del Duero",
+          "en": "CONVENTO OREJA, tinto Crianza Ribera del Duero"
+        },
+        "price": 18.95
+      },
+      {
+        "name": {
+          "es": "ESPINELA Roble Ribera del Duero",
+          "en": "ESPINELA Roble Ribera del Duero"
+        },
+        "price": 12.95
+      },
+      {
+        "name": {
+          "es": "LUNA FRÍA, Crianza Rioja",
+          "en": "LUNA FRÍA, Crianza Rioja"
+        },
+        "price": 12.20
+      },
+      {
+        "name": {
+          "es": "BRACO, Toro",
+          "en": "BRACO, Toro"
+        },
+        "price": 9.95
+      },
+      {
+        "name": {
+          "es": "TULA VARONA, Albariño",
+          "en": "TULA VARONA, Albariño"
+        },
+        "price": 16.90
+      },
+      {
+        "name": {
+          "es": "CAPRICHO, Godello Bierzo",
+          "en": "CAPRICHO, Godello Bierzo"
+        },
+        "price": 14.95
+      },
+      {
+        "name": {
+          "es": "RANTAMPLAN, Verdejo",
+          "en": "RANTAMPLAN, Verdejo"
+        },
+        "price": 8.40
+      },
+      {
+        "name": {
+          "es": "Cava SUMARROCA",
+          "en": "Cava SUMARROCA"
+        },
+        "price": 14.90
+      },
+      {
+        "name": {
+          "es": "AROA LARROSA, Rosado",
+          "en": "AROA LARROSA, Rosado"
+        },
+        "price": 6.25
+      },
+      {
+        "name": {
+          "es": "LÓPEZ DE HARO, Crianza",
+          "en": "LÓPEZ DE HARO, Crianza"
+        },
+        "price": 9.90
+      },
+      {
+        "name": {
+          "es": "BARDOS, Verdejo",
+          "en": "BARDOS, Verdejo"
+        },
+        "price": 9.90
+      },
+      {
+        "name": {
+          "es": "CAPRICHO VAL DE PAXARINAS",
+          "en": "CAPRICHO VAL DE PAXARINAS"
+        },
+        "price": 14.95
+      },
+      {
+        "name": {
+          "es": "FULGET, Albariño",
+          "en": "FULGET, Albariño"
+        },
+        "price": 12.00
+      },
+      {
+        "name": {
+          "es": "MÁETIRRA FRIZZ",
+          "en": "MÁETIRRA FRIZZ"
+        },
+        "price": 8.00
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Refrescos",
+      "en": "Refreshments"
+    },
+    "colorKey": "orange",
+    "items": [
+      {
+        "name": {
+          "es": "Todos de cristal",
+          "en": "Todos de cristal"
+        },
+        "price": 2.70
+      },
+      {
+        "name": {
+          "es": "Agua",
+          "en": "Agua"
+        },
+        "price": 2.10
+      }
+    ]
+  },
+  {
+    "name": {
+      "es": "Cervezas",
+      "en": "Beers"
+    },
+    "colorKey": "yellow",
+    "items": [
+      {
+        "name": {
+          "es": "Radler",
+          "en": "Radler"
+        },
+        "price": 2.20
+      },
+      {
+        "name": {
+          "es": "Mahou",
+          "en": "Mahou"
+        },
+        "price": 2.20
+      },
+      {
+        "name": {
+          "es": "Mahou tostada",
+          "en": "Mahou tostada"
+        },
+        "price": 2.20
+      },
+      {
+        "name": {
+          "es": "Maestra",
+          "en": "Maestra"
+        },
+        "price": 2.95
+      },
+      {
+        "name": {
+          "es": "Alhambra",
+          "en": "Alhambra"
+        },
+        "price": 2.75
+      },
+      {
+        "name": {
+          "es": "Coronita",
+          "en": "Coronita"
+        },
+        "price": 2.60
+      }
+    ]
+  }
+]
