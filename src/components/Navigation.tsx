@@ -70,7 +70,7 @@ function Navigation(props: NavigationProps) {
       />
       <MotionBox
         as="nav"
-        display="flex"
+        initial="closed"
         variants={navigationVariants}
         animate={isNavOpen ? "open" : "closed"}
         alignItems="center"
