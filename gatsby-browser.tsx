@@ -22,7 +22,3 @@ export const wrapPageElement = ({ element }: WrapPageElementNodeArgs) => {
     </ChakraProvider>
   );
 };
-
-export const shouldUpdateScroll = () => {
-  return false;
-};

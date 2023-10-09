@@ -35,7 +35,7 @@ const theme = extendTheme(
           lineHeight: 1.2,
         },
         body: {
-          fontSize: { base: "xl", md: "2xl" },
+          fontSize: { base: "lg", md: "xl" },
         },
         p: {
           marginBottom: "2",

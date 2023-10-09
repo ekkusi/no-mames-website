@@ -19,13 +19,23 @@ function IndexPage({ data }: PageProps<Queries.IndexQuery>) {
           as="h1"
           textAlign="center"
           fontSize={{ base: "4xl", md: "5xl" }}
+          mb="2"
           width={{ base: "100%", md: "60%" }}
         >
           {t("home.best-burgers-in-asturias")}
         </Text>
-        <Link to="/menu">
-          <Button size="md">{t("home.see-menu")}</Button>
-        </Link>
+        <Text as="span" textAlign="center" mb="5">
+          {t("home.orders-to-home")}
+        </Text>
+        <Text
+          as="a"
+          href="https://wa.link/a0f7p5"
+          target="_blank"
+          rel="noreferrer"
+          _hover={{ opacity: 1 }}
+        >
+          <Button size="md">{t("home.order-in-whatsapp")}</Button>
+        </Text>
       </ImageSection>
       <Section>
         <Text as="h2" textAlign="center">
@@ -37,9 +47,11 @@ function IndexPage({ data }: PageProps<Queries.IndexQuery>) {
           temporibus expedita accusantium tenetur distinctio doloremque facere
           repellat officia minima voluptates dignissimos earum.
         </Text>
-        {/* <Link to="/menu">
-          <Button variant="outline">{t("home.to-menu")}</Button>
-        </Link> */}
+        <Flex justifyContent="center" mt="6">
+          <Link to="/menu">
+            <Button variant="outline">{t("home.see-menu")}</Button>
+          </Link>
+        </Flex>
       </Section>
       <ImageSection image={sectionImage} height="50vh" />
       <Section>

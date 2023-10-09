@@ -37,7 +37,7 @@ function ImageSection({ title, image, children, ...rest }: ImageSectionProps) {
       )}
       <Flex
         position="absolute"
-        top="50%"
+        top={{ base: "45%", md: "50%" }}
         transform="translateY(-50%)"
         width="100%"
         alignItems="center"

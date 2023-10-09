@@ -1,6 +1,6 @@
 import * as React from "react";
 import { graphql, HeadProps, type PageProps } from "gatsby";
-import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import { useI18next, useTranslation } from "gatsby-plugin-react-i18next";
 import PageWrapper from "../components/PageWrapper";
 import { LogoImageSection } from "../components/ImageSection";
@@ -16,6 +16,22 @@ function MenuPage({ data }: PageProps<Queries.MenuQuery>) {
   return (
     <PageWrapper>
       <LogoImageSection />
+      <Section py="10">
+        <Flex flexDirection="column" alignItems="center">
+          <Text as="h2" fontSize={{ base: "2xl", md: "4xl" }}>
+            {t("menu.orders-to-home")}
+          </Text>
+          <Text
+            as="a"
+            href="https://wa.link/a0f7p5"
+            target="_blank"
+            rel="noreferrer"
+            _hover={{ opacity: 1 }}
+          >
+            <Button size="md">{t("menu.order-in-whatsapp")}</Button>
+          </Text>
+        </Flex>
+      </Section>
       <Section pt="12">
         <Text as="h1" textAlign="center">
           {t("menu.menu")}

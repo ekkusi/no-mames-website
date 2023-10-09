@@ -6,17 +6,23 @@
     "best-burgers-in-asturias": "The best burgers in Asturias",
     "try-the-best-burgers": "Try the best burgers in Asturias",
     "reserve-or-order": "Reserve or order",
-    "reserve-description": "Reserve a table or order your food to take away. Orders for 4€ to anywhere in Gijón!"
+    "reserve-description": "Reserve a table or order your food to take away. Orders for 4€ to anywhere in Gijón!",
+    "orders-to-home": "Order to home for 4€",
+    "order-in-whatsapp": "Order in Whatsapp"
   },
   "menu": {
-    "menu": "Menu"
+    "menu": "Menu",
+    "orders-to-home": "Order to home for 4€",
+    "order-in-whatsapp": "Order in Whatsapp"
   },
   "footer": {
     "contact-us": "Contact us",
     "phone": "Phone"
   },
   "header": {
-    "home": "Home"
+    "home": "Home",
+    "menu": "Menu",
+    "contact": "Contact"
   },
   "contact-in-whatsapp": "Contact in Whatsapp",
   "site-description": "Mexican restaurant in Gijón. The best burgers in Asturias."

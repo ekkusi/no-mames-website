@@ -12,6 +12,7 @@ function Footer(props: FooterProps) {
   return (
     <Section
       as="footer"
+      id="footer"
       display="flex"
       flexDirection={{
         base: "column-reverse",
