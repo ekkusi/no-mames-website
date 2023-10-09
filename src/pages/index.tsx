@@ -1,5 +1,5 @@
 import * as React from "react";
-import { PageProps, graphql } from "gatsby";
+import { HeadProps, PageProps, graphql } from "gatsby";
 import { Link, useTranslation } from "gatsby-plugin-react-i18next";
 import { Button, Flex, Text } from "@chakra-ui/react";
 import { StaticImage } from "gatsby-plugin-image";
@@ -77,12 +77,18 @@ function IndexPage({ data }: PageProps<Queries.IndexQuery>) {
 
 export default IndexPage;
 
-export function Head() {
-  const { t } = useTranslation();
+export function Head({ location }: HeadProps) {
+  const isEN = location.pathname.startsWith("/en");
+  let description =
+    "Restaurante mexicano en Gijón. Las mejores hamburguesas en Asturias.";
+  if (isEN) {
+    description = "Mexican restaurant in Gijón. The best burgers in Asturias.";
+  }
+
   return (
     <>
       <title>No Mames</title>
-      <meta name="description" content={t("site-description") || undefined} />
+      <meta name="description" content={description} />
     </>
   );
 }
