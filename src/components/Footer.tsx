@@ -40,7 +40,7 @@ function Footer(props: FooterProps) {
         <Text
           as="h2"
           color="blue"
-          mb="2"
+          mb="4"
           mt="0"
           textAlign={{ base: "center", md: "left" }}
           fontSize={{ base: "4xl", md: "5xl" }}
@@ -75,7 +75,7 @@ function Footer(props: FooterProps) {
         >
           <Icon as={AiOutlineWhatsApp} w={7} h={7} mr="1" mb="1" />
           <Text as="span" verticalAlign="middle">
-            {t("footer.contact-in-whatsapp")}
+            {t("contact-in-whatsapp")}
           </Text>
         </Flex>
       </Box>

@@ -1,13 +1,13 @@
 // import BackgroundImage, {
 //   IBackgroundImageProps,
 // } from "gatsby-background-image";
-import { GatsbyImageProps, IGatsbyImageData } from "gatsby-plugin-image";
+// import { IGatsbyImageData } from "gatsby-plugin-image";
 import React from "react";
 // import { convertToBgImage } from "gbimage-bridge";
 import Section, { SectionProps } from "./Section";
 
 export type SectionWithBackgroundProps = SectionProps & {
-  image: IGatsbyImageData;
+  // image: IGatsbyImageData;
   imgSrc: string;
 };
 
@@ -23,7 +23,7 @@ export type SectionWithBackgroundProps = SectionProps & {
 // }
 
 function SectionWithBackground({
-  image,
+  // image,
   imgSrc,
   children,
   ...rest

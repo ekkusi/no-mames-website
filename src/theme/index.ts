@@ -20,17 +20,19 @@ const theme = extendTheme(
     fonts: {
       heading: "'Rye', sans-serif",
       body: "'Rye', sans-serif",
+      text: "Roboto, sans-serif",
     },
     styles: {
       global: () => ({
         "html, body, #root": {
+          WebkitTaphighlightColor: "transparent",
           margin: 0,
           width: "100%",
           minHeight: "100vh",
           color: colors.text,
           bg: colors.bg,
           overflowX: "hidden",
-          lineHeigth: 1.2,
+          lineHeight: 1.2,
         },
         body: {
           fontSize: { base: "xl", md: "2xl" },
@@ -79,7 +81,7 @@ const theme = extendTheme(
       ...colors,
     },
   },
-  withDefaultColorScheme({ colorScheme: "whiteAlpha" })
+  withDefaultColorScheme({ colorScheme: "orange" })
 );
 
 export default theme;

@@ -27,21 +27,27 @@ const Button: ComponentSingleStyleConfig = defineStyleConfig({
   variants: {
     outline: ({ colorScheme }) => ({
       border: "2px",
-      borderColor: `${colorScheme}.800`,
-      color: `${colorScheme}.800`,
+      borderColor: `${colorScheme}.500`,
+      color: `${colorScheme}.500`,
       bg: "inherit",
       borderRadius: "md",
+      _hover: {
+        bg: `${colorScheme}.500`,
+        color: "white",
+        opacity: 1,
+      },
     }),
     solid: ({ colorScheme }) => ({
-      border: "2px",
-      bg: `${colorScheme}.100`,
-      _hover: {
-        bg: `${colorScheme}.100`,
-      },
-      _active: {
-        bg: `${colorScheme}.100`,
-        transform: "scale(0.99, 0.97)",
-      },
+      borderRadius: "md",
+      // border: "2px",
+      // bg: `${colorScheme}.100`,
+      // _hover: {
+      //   bg: `${colorScheme}.100`,
+      // },
+      // _active: {
+      //   bg: `${colorScheme}.100`,
+      //   transform: "scale(0.99, 0.97)",
+      // },
     }),
     ghost: {
       px: 0,

@@ -1,23 +1,27 @@
 import { Box, Flex, FlexProps } from "@chakra-ui/react";
 import React from "react";
 // import { Link } from "gatsby";
-import { Link, useI18next } from "gatsby-plugin-react-i18next";
+import { Link, useI18next, useTranslation } from "gatsby-plugin-react-i18next";
 
 type NavigationProps = FlexProps;
 
 function Navigation(props: NavigationProps) {
   const { originalPath, languages, language } = useI18next();
+  const { t } = useTranslation();
 
   return (
     <Flex
-      justifyContent="center"
+      justifyContent="space-between"
       alignItems="center"
       position="absolute"
       width="100%"
       zIndex="101"
+      top="4"
+      px="4"
       {...props}
     >
-      <Flex position="absolute" top="4" right="4">
+      <Link to="/">{t("header.home")}</Link>
+      <Flex mr="-1">
         {languages.map((lang) => (
           <Box
             key={lang}

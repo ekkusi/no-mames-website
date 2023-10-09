@@ -1,14 +1,23 @@
 {
   "home": {
     "welcome": "Welcome!",
-    "to-menu": "To menu"
+    "see-menu": "See the menu",
+    "to-menu": "To menu",
+    "best-burgers-in-asturias": "The best burgers in Asturias",
+    "try-the-best-burgers": "Try the best burgers in Asturias",
+    "reserve-or-order": "Reserve or order",
+    "reserve-description": "Reserve a table or order your food to take away. Orders for 4€ to anywhere in Gijón!"
   },
   "menu": {
     "menu": "Menu"
   },
   "footer": {
     "contact-us": "Contact us",
-    "phone": "Phone",
-    "contact-in-whatsapp": "Contact in Whatsapp"
-  }
+    "phone": "Phone"
+  },
+  "header": {
+    "home": "Home"
+  },
+  "contact-in-whatsapp": "Contact in Whatsapp",
+  "site-description": "Mexican restaurant in Gijón. The best burgers in Asturias."
 }

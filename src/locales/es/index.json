@@ -1,14 +1,22 @@
 {
   "home": {
-    "welcome": "Bienvenido!",
-    "to-menu": "Al menú"
+    "welcome": "Bienvenidos!",
+    "see-menu": "Ver el menú",
+    "to-menu": "Al menú",
+    "best-burgers-in-asturias": "Las mejores hamburguesas en Asturias",
+    "reserve-or-order": "Reservar o pedir",
+    "reserve-description": "Reserva una mesa o pide para llevar. Pedidas a 4€ a todo Gijón!"
   },
   "menu": {
     "menu": "Menú"
   },
   "footer": {
     "contact-us": "Contactos",
-    "phone": "Tel",
-    "contact-in-whatsapp": "Contactar por Whatsapp"
-  }
+    "phone": "Tel"
+  },
+  "header": {
+    "home": "Home"
+  },
+  "contact-in-whatsapp": "Contactar por Whatsapp",
+  "site-description": "Restaurante mexicano en Gijón. Las mejores hamburguesas en Asturias."
 }
