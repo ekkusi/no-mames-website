@@ -97,6 +97,7 @@
     "./src/**/*",
     "./gatsby-node.ts",
     "./gatsby-browser.tsx",
+    "./gatsby-ssr.tsx",
     "./gatsby-config.ts",
     "./plugins/**/*"
   ]
